@@ -1,0 +1,18 @@
+Compiled from "Reader.java"
+public final class com.uhf.api.cls.Reader$Region_Conf extends java.lang.Enum<com.uhf.api.cls.Reader$Region_Conf> {
+  public static final com.uhf.api.cls.Reader$Region_Conf RG_NONE;
+  public static final com.uhf.api.cls.Reader$Region_Conf RG_NA;
+  public static final com.uhf.api.cls.Reader$Region_Conf RG_EU;
+  public static final com.uhf.api.cls.Reader$Region_Conf RG_EU2;
+  public static final com.uhf.api.cls.Reader$Region_Conf RG_EU3;
+  public static final com.uhf.api.cls.Reader$Region_Conf RG_KR;
+  public static final com.uhf.api.cls.Reader$Region_Conf RG_PRC;
+  public static final com.uhf.api.cls.Reader$Region_Conf RG_PRC2;
+  public static final com.uhf.api.cls.Reader$Region_Conf RG_OPEN;
+  int p_v;
+  public static com.uhf.api.cls.Reader$Region_Conf[] values();
+  public static com.uhf.api.cls.Reader$Region_Conf valueOf(java.lang.String);
+  public int value();
+  public static com.uhf.api.cls.Reader$Region_Conf valueOf(int);
+  static {};
+}

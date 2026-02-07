@@ -1,0 +1,108 @@
+@api_url = http://localhost:5004
+
+#########################################################
+# AUTHENTICATION SECTION - PASTE YOUR TOKEN HERE        #
+#########################################################
+
+### STEP 1: Get your JWT token by logging in
+### (Run this first to get your token)
+POST {{api_url}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "password123"
+}
+
+### STEP 2: PASTE YOUR TOKEN HERE AFTER LOGIN ###
+@token = YOUR_JWT_TOKEN_GOES_HERE
+
+#########################################################
+# AUTHORIZED ENDPOINTS - Requires valid token above     #
+#########################################################
+
+### Health Check (Public - no token required)
+GET {{api_url}}/health
+
+### Get all products
+GET {{api_url}}/api/rfid/products
+Authorization: Bearer {{token}}
+
+### Get product by tag ID
+GET {{api_url}}/api/rfid/products/300833B2DDD9014000000001
+Authorization: Bearer {{token}}
+
+### Create a new product
+POST {{api_url}}/api/rfid/products
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "tagId": "300833B2DDD9014000000003",
+  "productName": "Summer Dress",
+  "category": "Dress",
+  "size": "L",
+  "color": "Red"
+}
+
+### Update a product
+PUT {{api_url}}/api/rfid/products/1
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "productId": 1,
+  "tagId": "300833B2DDD9014000000001",
+  "productName": "Updated Cotton T-Shirt",
+  "category": "T-Shirt",
+  "size": "M",
+  "color": "Blue"
+}
+
+### Delete a product
+DELETE {{api_url}}/api/rfid/products/1
+Authorization: Bearer {{token}}
+
+### Get all scan logs
+GET {{api_url}}/api/rfid/scanlogs
+Authorization: Bearer {{token}}
+
+### Get scan logs for specific tag
+GET {{api_url}}/api/rfid/scanlogs/300833B2DDD9014000000001
+Authorization: Bearer {{token}}
+
+### Create a scan log
+POST {{api_url}}/api/rfid/scanlogs
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "tagId": "300833B2DDD9014000000001",
+  "location": "Warehouse Entrance",
+  "status": "IN"
+}
+
+### Simulate RFID scan
+POST {{api_url}}/api/rfid/scan
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "tagId": "300833B2DDD9014000000001",
+  "location": "Checkout Counter",
+  "status": "OUT"
+}
+
+#########################################################
+# USER MANAGEMENT - Public endpoints                    #
+#########################################################
+
+### Register a new user
+POST {{api_url}}/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "newuser",
+  "role": "employee",
+  "password": "newpassword123"
+}

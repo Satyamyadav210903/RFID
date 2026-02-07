@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RFID_Demo</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="menu_settings">Settings</string>
+    <string name="configure_server">Configure Server</string>
+    <string name="server_url">Server URL</string>
+    
+    <!-- RFID related strings -->
+    <string name="inituhffail">Failed to initialize UHF reader</string>
+    <string name="read_success_">Read successful: </string>
+    <string name="read_fail_">Read failed</string>
+    <string name="please_write_data_type_error">Please enter valid data in hexadecimal format</string>
+    <string name="write_data_success_">Data written successfully</string>
+    <string name="write_data_fail_">Write failed</string>
+    <string name="connection_failed">Connection failed</string>
+</resources>

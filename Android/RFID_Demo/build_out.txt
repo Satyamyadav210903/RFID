@@ -1,0 +1,67 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:mapDebugSourceSetPaths
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes
+> Task :app:mergeDebugJniLibFolders
+> Task :app:checkDebugDuplicateClasses
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeLibDexDebug
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libModuleAPIJni.so, libSerialPort.so, libdevapi.so, libirdaSerialPort.so, libjni_rfid_driver.so.
+
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+D:\Satyam\MY LEARNING PROJECTS\RFID_Demo\app\src\main\java\com\ecartes\rfid_demo\RFIDScanActivity.java:777: error: variable sdf is already defined in method showLocationStatusDialog()
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault());
+                             ^
+D:\Satyam\MY LEARNING PROJECTS\RFID_Demo\app\src\main\java\com\ecartes\rfid_demo\RFIDScanActivity.java:778: error: variable scanTime is already defined in method showLocationStatusDialog()
+            String scanTime = sdf.format(new Date());
+                   ^
+D:\Satyam\MY LEARNING PROJECTS\RFID_Demo\app\src\main\java\com\ecartes\rfid_demo\RFIDScanActivity.java:780: error: variable savedCount is already defined in method showLocationStatusDialog()
+            int savedCount = 0;
+                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:mergeDebugJavaResource
+
+> Task :app:compileDebugJavaWithJavac FAILED
+3 errors
+
+> Task :app:desugarDebugFileDependencies
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 26s
+29 actionable tasks: 29 executed

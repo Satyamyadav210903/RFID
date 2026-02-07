@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RFID_Demo.props" />
+</Project>

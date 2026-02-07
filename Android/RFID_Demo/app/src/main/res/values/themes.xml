@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RFID_Demo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue_variant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal</item>
+        <item name="colorSecondaryVariant">@color/teal_variant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- Surface and background colors. -->
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <!-- Error color. -->
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.RFID_Demo" parent="Base.Theme.RFID_Demo" />
+    
+    <!-- Dialog Theme -->
+    <style name="Theme.RFID_Demo.Dialog" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorSecondary">@color/teal</item>
+    </style>
+    
+    <!-- Forced Light Theme -->
+    <style name="Theme.RFID_Demo.Light" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue_variant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal</item>
+        <item name="colorSecondaryVariant">@color/teal_variant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- Surface and background colors. -->
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <!-- Error color. -->
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+    
+    <!-- Forced Dark Theme -->
+    <style name="Theme.RFID_Demo.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal</item>
+        <item name="colorSecondaryVariant">@color/teal_variant</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Surface and background colors. -->
+        <item name="colorSurface">#FF121212</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:colorBackground">#FF000000</item>
+        <item name="colorOnBackground">@color/white</item>
+        <!-- Error color. -->
+        <item name="colorError">@color/danger_red</item>
+        <item name="colorOnError">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#FF000000</item>
+        <!-- Overflow menu icon color -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources>

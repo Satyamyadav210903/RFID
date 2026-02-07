@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_blue">#1976D2</color>
+    <color name="primary_blue_variant">#1565C0</color>
+    <color name="teal">#009688</color>
+    <color name="teal_variant">#00897B</color>
+    
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Theme Colors -->
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#009688</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#FF000000</color>
+    <color name="colorBackground">#F5F7FA</color>
+    <color name="colorOnBackground">#FF000000</color>
+    <color name="colorError">#D32F2F</color>
+    <color name="colorOnError">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="danger_red">#F44336</color>
+    <color name="medium_grey">#E0E0E0</color>
+    
+    <!-- Custom UI Colors -->
+    <color name="background_surface">#F5F7FA</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="stroke_color">#E0E0E0</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="button_primary">#1976D2</color>
+    <color name="button_primary_pressed">#1565C0</color>
+</resources>

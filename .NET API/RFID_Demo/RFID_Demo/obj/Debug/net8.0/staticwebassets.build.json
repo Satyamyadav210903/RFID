@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PWVYJRPrLPV3B+TlnlbXOQMuxdJM/J+iacOeBKlI+JM=",
+  "Source": "RFID_Demo",
+  "BasePath": "_content/RFID_Demo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

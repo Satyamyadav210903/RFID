@@ -1,0 +1,40 @@
+Compiled from "Reader.java"
+public final class com.uhf.api.cls.Reader$READER_ERR extends java.lang.Enum<com.uhf.api.cls.Reader$READER_ERR> {
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_OK_ERR;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_IO_ERR;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_INTERNAL_DEV_ERR;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_CMD_FAILED_ERR;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_CMD_NO_TAG_ERR;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_M5E_FATAL_ERR;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_OP_NOT_SUPPORTED;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_INVALID_PARA;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_INVALID_READER_HANDLE;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_HARDWARE_ALERT_ERR_BY_HIGN_RETURN_LOSS;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_HARDWARE_ALERT_ERR_BY_TOO_MANY_RESET;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_HARDWARE_ALERT_ERR_BY_NO_ANTENNAS;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_HARDWARE_ALERT_ERR_BY_HIGH_TEMPERATURE;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_HARDWARE_ALERT_ERR_BY_READER_DOWN;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_HARDWARE_ALERT_ERR_BY_UNKNOWN_ERR;
+  public static final com.uhf.api.cls.Reader$READER_ERR M6E_INIT_FAILED;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_OP_EXECING;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_UNKNOWN_READER_TYPE;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_OP_INVALID;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_HARDWARE_ALERT_BY_FAILED_RESET_MODLUE;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_MAX_ERR_NUM;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_MAX_INT_NUM;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_TEST_DEV_FAULT_1;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_TEST_DEV_FAULT_2;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_TEST_DEV_FAULT_3;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_TEST_DEV_FAULT_4;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_TEST_DEV_FAULT_5;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_UPDFWFROMSP_OPENFILE_FAILED;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_UPDFWFROMSP_FILE_FORMAT_ERR;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_JNI_INVALID_PARA;
+  public static final com.uhf.api.cls.Reader$READER_ERR MT_OTHER_ERR;
+  public static com.uhf.api.cls.Reader$READER_ERR[] values();
+  public static com.uhf.api.cls.Reader$READER_ERR valueOf(java.lang.String);
+  public static com.uhf.api.cls.Reader$READER_ERR valueOf(int);
+  public int value();
+  static int access$500(com.uhf.api.cls.Reader$READER_ERR);
+  static {};
+}

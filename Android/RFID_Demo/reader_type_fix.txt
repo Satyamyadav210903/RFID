@@ -1,0 +1,21 @@
+Compiled from "Reader.java"
+public final class com.uhf.api.cls.Reader$Reader_Type extends java.lang.Enum<com.uhf.api.cls.Reader$Reader_Type> {
+  public static final com.uhf.api.cls.Reader$Reader_Type MODULE_TWO_ANTS;
+  public static final com.uhf.api.cls.Reader$Reader_Type MODULE_FOUR_ANTS;
+  public static final com.uhf.api.cls.Reader$Reader_Type MODULE_THREE_ANTS;
+  public static final com.uhf.api.cls.Reader$Reader_Type MODULE_ONE_ANT;
+  public static final com.uhf.api.cls.Reader$Reader_Type PR9000;
+  public static final com.uhf.api.cls.Reader$Reader_Type MODULE_ARM7_TWO_ANTS;
+  public static final com.uhf.api.cls.Reader$Reader_Type MODULE_ARM7_FOUR_ANTS;
+  public static final com.uhf.api.cls.Reader$Reader_Type M6E_ARM7_FOUR_ANTS;
+  public static final com.uhf.api.cls.Reader$Reader_Type M56_ARM7_FOUR_ANTS;
+  public static final com.uhf.api.cls.Reader$Reader_Type R902_M1S;
+  public static final com.uhf.api.cls.Reader$Reader_Type R902_M2S;
+  public static final com.uhf.api.cls.Reader$Reader_Type ARM7_16ANTS;
+  public static final com.uhf.api.cls.Reader$Reader_Type SL_COMMN_READER;
+  public static com.uhf.api.cls.Reader$Reader_Type[] values();
+  public static com.uhf.api.cls.Reader$Reader_Type valueOf(java.lang.String);
+  public static com.uhf.api.cls.Reader$Reader_Type valueOf(int);
+  public int value();
+  static {};
+}
